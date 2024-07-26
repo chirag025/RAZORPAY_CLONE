@@ -9,13 +9,13 @@
 }
 
 .featureCard:hover .featureCardBox {
-  background-image: url("/images/features-wave.svg");
+  background-image: url("./images/features-wave.svg");
   background-repeat: no-repeat;
   background-position: bottom 1rem right;
 }
 
 .featureCard2:hover .featureCardBox {
-  background-image: url("/images/features2-wave.svg");
+  background-image: url(".images/features2-wave.svg");
   background-repeat: no-repeat;
   background-position: bottom 1rem right;
 }
@@ -39,6 +39,15 @@
   background-size: 100% 100%;
   padding-top: 12rem;
   padding-bottom: 12rem;
+}
+
+.newFeatureCard{
+  box-shadow: 2px 4px 9px 1px hsla(0, 0%, 0%, 0.05);
+  background-position: -2px -2px;
+}
+
+.ctaSection{
+  background-size: 100% 100%;
 }
 
 .companiesList {
