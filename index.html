@@ -1340,7 +1340,7 @@
           <!-- left button -->
           <button
             class="w-[100px] h-[100px] rounded-full bg-[#f4f8ff] absolute left-0 top-1/2 grid place-items-center">
-            <div>
+            <div class="w-[65%] h-[65%] rounded-full bg-[#f4f8ff] mix-blend-multiply grid place-items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -1358,8 +1358,8 @@
           </button>
 
           <!-- right button -->
-          <button>
-            <div>
+          <button class="w-[100px] h-[100px] rounded-full bg-[#f4f8ff] absolute right-0 top-1/2 grid place-items-center">
+            <div class="w-[65%] h-[65%] rounded-full bg-[#f4f8ff] mix-blend-multiply grid place-items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -1377,30 +1377,45 @@
           </button>
 
           <!-- main content -->
-          <div>
+          <div class="flex max-w-[960px] items-center mx-auto my-20 space-x-[10rem]">
             <!-- left img -->
             <img
               src="./images/testimonial.jpg"
-              alt="" />
+              alt=""
+              width="320px"
+              class="rounded-xl"/>
 
             <!-- right part -->
-            <img
-              src="./images/quotes.svg"
-              alt="" />
-            <p>Readymade Closed Wallet Solution For Quick Refunds</p>
-
-            <a href="#">Learn More</a>
-            <h3>Lorem Ipsum</h3>
-            <p>CEO, XYZ Engineering Company</p>
-
-            <img
-              src="./images/fake-company-logo.png"
-              alt="" />
+            <div class="max-w-[400px]">
+              <img
+                src="./images/quotes.svg"
+                width="35px"
+                height="40px"
+                class="-mb-1" />
+              <p class="text-3xl font-extralight">Readymade Closed Wallet Solution For Quick Refunds</p>
+  
+              <a href="#" class="text-grayText underline italic text-sm">Learn More</a>
+              <p class="text-2xl font-extrabold">Lorem Ipsum</p>
+              <p class="font-medium">CEO, XYZ Engineering Company</p>
+  
+              <img
+                src="./images/fake-company-logo.png"
+                width="80px"
+                height="40px"
+                alt="" />
+            </div>
           </div>
 
           <!-- 6 dot div -->
-          <div>
-            <div></div>
+          <div class="flex space-x-2 justify-center w-max mx-auto">
+            <!-- boxes -->
+            <div class="bg-gray-300 h-[10px] w-[10px] rounded-full"></div>
+            <div class="bg-lightBlue300 h-[10px] w-[10px] rounded-full"></div>
+            <div class="bg-gray-300 h-[10px] w-[10px] rounded-full"></div>
+            <div class="bg-gray-300 h-[10px] w-[10px] rounded-full"></div>
+            <div class="bg-gray-300 h-[10px] w-[10px] rounded-full"></div>
+            <div class="bg-gray-300 h-[10px] w-[10px] rounded-full"></div>
+
           </div>
         </div>
       </section>
