@@ -23,13 +23,37 @@
     <!---------------------------- wrapper --------------------------------->
     <div class="font-mulish overflow-x-hidden w-full relative">
       
+      <!-- Top -->
+      <div class="w-full h-[52px] relative bg-white">
+          <div class="w-[40px] bg-lightBlue absolute top-0 left-0 bottom-0"></div>
+          <div class="w-2 bg-[#c4ddf9] left-5 h-full top-0 skew-x-[38deg] absolute"></div>
+          <div class="w-[120px] bg-[#e7f1fd] h-full left-7 top-0 skew-x-[38deg] absolute"></div>
+          <div class="w-[140px] bg-[#f3f8fe] h-full left-[9rem] top-0 skew-x-[38deg] absolute"></div>
+
+        <!-- content -->
+        <div class="flex justify-center items-center space-x-4 h-full">
+          <p>
+            RazorpayX Payroll: 3 Clicks, Payroll Fixed! Automate payroll now!
+          </p>
+
+          <button class="bg-lightBlue text-white text-xs rounded-md py-[10px] px-4 font-bold">
+            Know More
+          </button>
+        </div>
+
+        <div class="w-[40px] bg-lightBlue absolute top-0 right-0 bottom-0"></div>
+        <div class="w-2 bg-[#c4ddf9] right-5 h-full top-0 skew-x-[38deg] absolute"></div>
+        <div class="w-[120px] bg-[#e7f1fd] h-full top-0 right-7 skew-x-[38deg] absolute"></div>
+        <div class="w-[140px] bg-[#f3f8fe] h-full top-0 right-[9rem] skew-x-[38deg] absolute"></div>
+      </div>
+
       <!---------------------------- Navbar --------------------------------->
       <nav class="bg-deepBlue">
         <div
-          class="relative w-[1080px] mx-auto flex items-center justify-between">
+          class="relative w-11/12 max-w-[1080px] mx-auto flex items-center justify-between">
           <!-- logo -->
           <a
-            href="/"
+            href="./"
             class="py-7 pr-7">
             <img
               src="./images/logo.svg"
@@ -37,7 +61,7 @@
               height="30px" />
           </a>
 
-          <ul class="flex gap-6">
+          <ul class="flex space-x-6 pr-7">
             <li
               class="text-white py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
               <a href="#">Payments</a>
@@ -83,11 +107,11 @@
             </li>
           </ul>
 
-          <div class="flex gap-6">
+          <div class="flex space-x-3 items-center">
             <img
               src="./images/india-flag.svg"
               width="28px"
-              height="20px" />
+              height="20px" class="mt-1"/>
 
             <button
               class="text-white py-3 px-5 border-lightBlue border rounded-sm text-sm font-bold">
@@ -95,11 +119,11 @@
             </button>
 
             <button
-              class="text-lightBlue300 py-3 px-4 font-semibold rounded-sm text-sm bg-white border transition-all duration-200 hover:text-lightBlue500 group">
+              class="text-lightBlue300 py-3 px-4 font-bold rounded-sm text-sm bg-white border transition-all duration-200 hover:text-lightBlue500 group">
               Sign Up
 
               <i
-                class="fas fa-arrow-right ml-2 text-lightBlue300 group-hover:text-lightBlue500"></i>
+                class="fas fa-arrow-right w-[14px] h-[14px] ml-3 text-lightBlue300 group-hover:text-lightBlue500"></i>
             </button>
           </div>
         </div>
@@ -108,10 +132,10 @@
       <!---------------------------- Hero Section -->
       <section class="relative bg-deepBlue">
         <div
-          class="w-10/12 max-w-[1080px] flex justify-between items-center mx-auto">
+          class="w-11/12 max-w-[1080px] flex justify-between items-center mx-auto">
           <!-- left part -->
           <div class="space-y-8">
-            <h1 class="text-white font-bold text-[40px] leading-[1.2]">
+            <h1 class="text-white font-extrabold text-[40px] leading-[1.2]">
               Power your finance, grow your business
             </h1>
 
@@ -1503,7 +1527,7 @@
                 </li>
               </ul>
 
-              <button class="min-w-[32px] text-sm font-bold bg-white rounded-sm text-lightBlue300 border flex items-center hover:text-lightBlue500 group py-3 px-4">
+              <button class="min-w-[32px] text-sm font-bold bg-white rounded-sm text-lightBlue300 border flex items-center hover:text-lightBlue500 group py-3 px-4 transition-all duration-200">
                 Sign Up
                 <i
                 class="fas fa-arrow-right text-lightBlue300 hover:text-lightBlue500 w-[14px] h-[14px] ml-3"></i>
@@ -1553,10 +1577,10 @@
 
             <form action="" class="relative mt-2 mb-4">
                 <input type="email" class="pr-[5.5rem] py-2 px-4 text-sm border-gray-300 border rounded-sm outline-lightBlue" placeholder="Your email address">
-                <button class="absolute min-w-[32px] text-sm font-bold bg-white rounded-sm text-lightBlue300 flex items-center hover:text-lightBlue500 group top-1/2 -translate-y-1/2 right-[1.5px] h-[90%]">
+                <button class="absolute min-w-[32px] text-sm font-bold bg-white rounded-sm text-lightBlue300 flex items-center hover:text-lightBlue500 group top-1/2 -translate-y-1/2 right-[1.5px] h-[90%] transition-all duration-200">
                   Subscribe
                   <i
-                  class="fas fa-arrow-right text-lightBlue300 w-[14px] h-[14px] ml-3"></i>
+                  class="fas fa-arrow-right group-hover:text-lightBlue500 text-lightBlue300 w-[14px] h-[14px] ml-3"></i>
                 </button>
 
             </form>
@@ -1573,22 +1597,22 @@
               <h3 class="font-bold text-gray2 mb-1">BANKING PLUS</h3>
               <ul class="space-y-2">
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">RazorpayX</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">RazorpayX</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Current Accounts</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Current Accounts</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Payouts</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Payouts</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Payout Links</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Payout Links</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Corporate Credit Card</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Corporate Credit Card</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">View Live Demo <span class="bg-green-500 p-1 text-white font-bold text-xs rounded-sm">NEW</span></a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">View Live Demo <span class="bg-green-500 p-1 text-white font-bold text-xs rounded-sm">NEW</span></a>
                 </li>
               </ul>
             </div>
@@ -1597,16 +1621,16 @@
               <h3 class="font-bold text-gray2 mb-1">LENDING</h3>
               <ul class="space-y-2">
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Razorpay Capital</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Razorpay Capital</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Instant Settlements</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Instant Settlements</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Working Capital Loans</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Working Capital Loans</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Marketplace Instant Settlements</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Marketplace Instant Settlements</a>
                 </li>
               </ul>
             </div>
@@ -1615,10 +1639,10 @@
               <h3 class="font-bold text-gray2 mb-1">RISK & FRAUD</h3>
               <ul class="space-y-2">
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Thirdwatch</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Thirdwatch</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">PrePay CoD <span class="bg-green-500 p-1 text-white font-bold text-xs rounded-sm">NEW</span></a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">PrePay CoD <span class="bg-green-500 p-1 text-white font-bold text-xs rounded-sm">NEW</span></a>
                 </li>
               </ul>
             </div>
@@ -1627,10 +1651,10 @@
               <h3 class="font-bold text-gray2 mb-1">BECOME A PARTNER</h3>
               <ul class="space-y-2">
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Refer and Earn</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Refer and Earn</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Onboarding APIs</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Onboarding APIs</a>
                 </li>
               </ul>
             </div>
@@ -1639,31 +1663,31 @@
               <h3 class="font-bold text-gray2 mb-1">MORE</h3>
               <ul class="space-y-2">
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Route</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Route</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Invoices</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Invoices</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Freelancer Payments</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Freelancer Payments</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">International</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">International</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Flash Checkout</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Flash Checkout</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">UPI</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">UPI</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">ePOS</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">ePOS</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Checkout Demo</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Checkout Demo</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">RazorpayX Payroll</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">RazorpayX Payroll</a>
                 </li>
               </ul>
             </div>
@@ -1676,22 +1700,22 @@
               <h3 class="font-bold text-gray2 mb-1">ACCEPT PAYMENTS</h3>
               <ul class="space-y-2">
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Payment Gateway</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Payment Gateway</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Payment Pages</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Payment Pages</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Payment Links</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Payment Links</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">QR Codes</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">QR Codes</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Subscriptions</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Subscriptions</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Smart Collect</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Smart Collect</a>
                 </li>
               </ul>
             </div>
@@ -1700,13 +1724,13 @@
               <h3 class="font-bold text-gray2 mb-1">DEVELOPERS</h3>
               <ul class="space-y-2">
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Docs</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Docs</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Integrations</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Integrations</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">API Reference</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">API Reference</a>
                 </li>
               </ul>
             </div>
@@ -1740,13 +1764,13 @@
                   <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Education</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">E-commerce</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">E-commerce</a>
                 </li>
                 <li>
                   <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Saas</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">BFSI</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">BFSI</a>
                 </li>
               </ul>
             </div>
@@ -1773,30 +1797,30 @@
               <h3 class="font-bold text-gray2 mb-1">COMPANY</h3>
               <ul class="space-y-2">
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">About Us</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">About Us</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Careers <span class="bg-green-500 p-1 text-white font-bold text-xs rounded-sm">We're hiring!</span></a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Careers <span class="bg-green-500 p-1 text-white font-bold text-xs rounded-sm">We're hiring!</span></a>
                 </li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Terms of Use</a>
-                </li>
-                <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Privacy Policy</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Terms of Use</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Grievance Redressal</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Responsible Disclosure</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Grievance Redressal</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Partners</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Responsible Disclosure</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">White Papers</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Partners</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Corporate Information</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">White Papers</a>
+                </li>
+                <li>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Corporate Information</a>
                 </li>
               </ul>
             </div>
@@ -1805,10 +1829,10 @@
               <h3 class="font-bold text-gray2 mb-1">HELP & SUPPORT</h3>
               <ul class="space-y-2">
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Support</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Support</a>
                 </li>
                 <li>
-                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue">Knowledge base</a>
+                  <a href="#" class="font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200">Knowledge base</a>
                 </li>
               </ul>
             </div>
