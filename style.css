@@ -9,13 +9,13 @@
 }
 
 .featureCard:hover .featureCardBox {
-  background-image: url("./images/features-wave.svg");
+  background-image: url(./images/features-wave.svg);
   background-repeat: no-repeat;
   background-position: bottom 1rem right;
 }
 
 .featureCard2:hover .featureCardBox {
-  background-image: url(".images/features2-wave.svg");
+  background-image: url(./images/features2-wave.svg);
   background-repeat: no-repeat;
   background-position: bottom 1rem right;
 }
